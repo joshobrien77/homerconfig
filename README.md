@@ -5,6 +5,7 @@ This tool is designed to help manage and update the Homer service configuration 
 
 ## Prerequisites
 - Python installed on your system.
+- Homer installed on your system:  https://github.com/bastienwirtz/homer
 - An existing Homer service configuration file (usually in YAML format).
 - Basic familiarity with running Python scripts and editing YAML files.
 
