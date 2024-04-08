@@ -16,6 +16,17 @@ This tool is designed to help manage and update the Homer service configuration 
 pip install pyyaml
 ```
 
+
+## Configuration File Path
+Before running the script, make sure to update the `config_file_path` variable in `serviceconfig.py` to point to your actual Homer configuration file. Replace `'path/to/your/homer/config.yml'` with the correct path.
+
+## Backup Your Configuration
+It's advised to back up your existing Homer configuration file before running this script to prevent any accidental loss of data. Create a backup of your configuration file using this command:
+
+```
+cp path/to/your/homer/config.yml path/to/your/homer/config.yml.bkup
+```
+
 ## Usage
 1. Place `serviceconfig.py` in a convenient location on your computer.
 2. Open a terminal or command prompt.
@@ -38,13 +49,3 @@ When running `serviceconfig.py`, you will be prompted to enter:
 - **Keywords**: Keywords for the new service, separated by commas (leave blank if none).
 
 The script will update your Homer service configuration file with the provided details.
-
-## Configuration File Path
-Before running the script, make sure to update the `config_file_path` variable in `serviceconfig.py` to point to your actual Homer configuration file. Replace `'path/to/your/homer/config.yml'` with the correct path.
-
-## Backup Your Configuration
-It's advised to back up your existing Homer configuration file before running this script to prevent any accidental loss of data. Create a backup of your configuration file using this command:
-
-```
-cp path/to/your/homer/config.yml path/to/your/homer/config.yml.bkup
-```
